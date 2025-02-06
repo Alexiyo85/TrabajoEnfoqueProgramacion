@@ -1,5 +1,10 @@
 package Wordle;
 
+/**
+ * Clase que proporciona feedback visual al usuario sobre su intento.
+ * @author Francisco Alejandro Fernández Ferrón
+ * @date 04/02/2025
+ */
 public class WordleFeedback {
     private static final int WORD_LENGTH = 5;
     public static final String ANSI_RESET = "\u001B[0m";
@@ -9,6 +14,9 @@ public class WordleFeedback {
 
     /**
      * Aplica un color ANSI a la letra proporcionada.
+     * @param letter Letra a la que se aplicará el color.
+     * @param color Código de color ANSI.
+     * @return La letra con el color aplicado.
      */
     private static String applyColor(String letter, String color) {
         return color + letter + ANSI_RESET;
@@ -16,6 +24,9 @@ public class WordleFeedback {
 
     /**
      * Genera un feedback coloreado para la palabra ingresada.
+     * @param guess Palabra ingresada por el usuario.
+     * @param secretWord Palabra secreta que se debe adivinar.
+     * @return Cadena de texto con el feedback coloreado.
      */
     public static String feedBackString(String guess, String secretWord) {  
         StringBuilder feedback = new StringBuilder("_____");

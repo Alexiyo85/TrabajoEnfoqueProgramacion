@@ -20,3 +20,10 @@ porro - [32mp[0m[37mo[0m[32mr[0m[32mr[0m[32mo[0m
 suelo - [37ms[0m[37mu[0m[33me[0m[37ml[0m[32mo[0m
 
 Partida finalizada
+Partida finalizada.
+Historial:
+perro - [37mp[0m[32me[0m[37mr[0m[37mr[0m[33mo[0m
+suelo - [37ms[0m[33mu[0m[33me[0m[37ml[0m[33mo[0m
+aioue - [32ma[0m[33mi[0m[33mo[0m[33mu[0m[33me[0m
+
+Partida finalizada

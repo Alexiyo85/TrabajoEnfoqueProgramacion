@@ -7,6 +7,8 @@ import java.util.List;
 /**
  * Clase encargada de la gestión de archivos para el juego Wordle.
  * Permite leer palabras desde un archivo y guardar el historial de partidas.
+ * @author Francisco Alejandro Fernández Ferrón
+ * @date 04/02/2025
  */
 public class WordleFileManager {
 
@@ -15,7 +17,6 @@ public class WordleFileManager {
 
     /**
      * Lee palabras desde el archivo words.txt.
-     *
      * @return Lista de palabras leídas desde el archivo.
      * @throws IOException Si ocurre un error de lectura.
      */
@@ -32,7 +33,6 @@ public class WordleFileManager {
 
     /**
      * Guarda el historial de la partida en un archivo game_history.txt.
-     *
      * @param content Texto que se desea guardar.
      * @throws IOException Si ocurre un error al escribir en el archivo.
      */
@@ -43,6 +43,4 @@ public class WordleFileManager {
         }
     }
 }
-
-
 
