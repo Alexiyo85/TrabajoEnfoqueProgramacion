@@ -15,6 +15,18 @@ public class Main {
      * @param args Argumentos de la línea de comandos (no se utilizan).
      */
     public static void main(String[] args) {
+    	// Introducción al juego
+        System.out.println("¡Bienvenido a Wordle!");
+        System.out.println("Reglas del juego:");
+        System.out.println("- Debes adivinar una palabra oculta " + WordleGame.getWordLength() + " letras");
+        System.out.println("- Cada intento debe ser una palabra válida de la misma longitud.");
+        System.out.println("- Colores de las letras:");
+        System.out.println("  \u001B[32mVerde\u001B[0m  -> La letra está en la palabra y en la posición correcta.");
+        System.out.println("  \u001B[33mAmarillo\u001B[0m -> La letra está en la palabra, pero en la posición incorrecta.");
+        System.out.println("  Blanco -> La letra no está en la palabra.");
+        System.out.println("- Tienes un número limitado de"+ WordleGame.getMaxTries() + "intentos. ¡Buena suerte!");
+        System.out.println();
+    	
         try {
             // Cargar palabras desde words.txt
             List<String> words = WordleFileManager.loadWords();

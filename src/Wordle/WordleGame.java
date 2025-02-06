@@ -26,7 +26,15 @@ public class WordleGame {
         initializeGame();
     }
 
-    /**
+    public static int getMaxTries() {
+		return MAX_TRIES;
+	}
+
+	public static int getWordLength() {
+		return WORD_LENGTH;
+	}
+
+	/**
      * Inicializa el juego seleccionando una palabra aleatoria y reiniciando los intentos.
      */
     private void initializeGame() {
@@ -128,6 +136,7 @@ public class WordleGame {
             input = scanner.nextLine().trim().toLowerCase();
             if (!input.matches("^[a-zA-Z]{" + WORD_LENGTH + "}$")) {
                 System.out.println("Entrada inválida. Debe contener exactamente " + WORD_LENGTH + " letras y solo caracteres alfabéticos.");
+                System.out.print("Ingrese una palabra de " + WORD_LENGTH + " letras: ");
             }
         } while (!input.matches("^[a-zA-Z]{" + WORD_LENGTH + "}$"));
         return input;
@@ -140,4 +149,5 @@ public class WordleGame {
     public String getTriesHistory() {
         return triesHistory.toString();
     }
+
 }

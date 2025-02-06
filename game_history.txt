@@ -27,3 +27,44 @@ suelo - [37ms[0m[33mu[0m[33me[0m[37ml[0m[33mo[0m
 aioue - [32ma[0m[33mi[0m[33mo[0m[33mu[0m[33me[0m
 
 Partida finalizada
+Partida finalizada.
+Historial:
+
+Partida finalizada.
+Historial:
+perro - [37mp[0m[33me[0m[37mr[0m[37mr[0m[32mo[0m
+
+Partida finalizada
+Partida finalizada.
+Historial:
+aeiou - [37ma[0m[33me[0m[37mi[0m[33mo[0m[33mu[0m
+perro - [37mp[0m[33me[0m[37mr[0m[37mr[0m[32mo[0m
+serlo - [32ms[0m[33me[0m[37mr[0m[32ml[0m[32mo[0m
+
+Partida finalizada
+Partida finalizada.
+Historial:
+perro - [37mp[0m[32me[0m[37mr[0m[37mr[0m[33mo[0m
+terco - [37mt[0m[32me[0m[37mr[0m[37mc[0m[33mo[0m
+pulpo - [37mp[0m[33mu[0m[37ml[0m[37mp[0m[33mo[0m
+surco - [37ms[0m[33mu[0m[37mr[0m[37mc[0m[33mo[0m
+serco - [37ms[0m[32me[0m[37mr[0m[37mc[0m[33mo[0m
+cerco - [37mc[0m[32me[0m[37mr[0m[37mc[0m[33mo[0m
+
+Partida finalizada.
+Historial:
+pulpo - [37mp[0m[37mu[0m[37ml[0m[37mp[0m[33mo[0m
+oasis - [33mo[0m[33ma[0m[37ms[0m[37mi[0m[37ms[0m
+solas - [37ms[0m[33mo[0m[37ml[0m[33ma[0m[37ms[0m
+suelo - [37ms[0m[37mu[0m[37me[0m[37ml[0m[33mo[0m
+truco - [37mt[0m[32mr[0m[37mu[0m[37mc[0m[33mo[0m
+craco - [37mc[0m[32mr[0m[33ma[0m[37mc[0m[33mo[0m
+
+Partida finalizada.
+Historial:
+truco - [37mt[0m[37mr[0m[37mu[0m[37mc[0m[37mo[0m
+perla - [37mp[0m[32me[0m[37mr[0m[33ml[0m[37ma[0m
+lento - [33ml[0m[32me[0m[37mn[0m[37mt[0m[37mo[0m
+seria - [37ms[0m[32me[0m[37mr[0m[32mi[0m[37ma[0m
+feria - [32mf[0m[32me[0m[37mr[0m[32mi[0m[37ma[0m
+
